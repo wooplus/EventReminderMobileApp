@@ -1,6 +1,7 @@
 * {
   color: rgb(22, 22, 22);
   font-size: 0.8rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -36,6 +37,13 @@ input {
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
+p {
+  text-align: center;
+  font-size: 1rem;
+  margin: 0 auto;
+  color: rgb(170, 170, 170);
+}
+
 .form-control {
   display: block;
   width: 14rem;
@@ -44,7 +52,7 @@ input {
 .btn {
   display: block;
   margin: 1rem auto;
-  width: 8rem;
+  width: 10rem;
   background-color: rgb(253, 253, 132);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -93,8 +101,31 @@ ul li {
   font-weight: bold;
   list-style-type: square;
   margin-left: 25%;
+  font-size: 1rem;
 }
 
 ul li:hover {
   border-left: 15px solid rgb(137, 66, 137);
+  font-size: 1.2rem;
+}
+
+span {
+  font-size: 1rem;
+  color: rgb(255, 66, 66);
+}
+
+/* span:hover {
+  font-size: 1.3rem;
+} */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  background-color: lightpink;
+  padding: 1em;
+  right: 0;
+  left: 0;
 }
